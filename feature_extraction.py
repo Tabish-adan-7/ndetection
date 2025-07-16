@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
-
+import matplotlib as plt
 #Load the preprocessed file
 
 df = pd.read_csv(r"D:\projects\fakenews\processed_text.csv")
